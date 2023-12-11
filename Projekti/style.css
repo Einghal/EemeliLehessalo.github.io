@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500;800&family=Macondo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    margin: 0;
+
+
+
+}
+
+
+
+
+.video {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    top:0;
+
+
+}
+
+
+
+
+.text-box{
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    z-index: 1;
+
+
+}
+
+.text-box h1{
+font-size: 50px;
+font-weight: 600;
+}
+
+.text-box h3{
+font-size: 30px;
+font-weight: 500;
+
+}
+.text-box p{
+   font-size: 19px;
+
+
+}
+
+
+
+header h1{
+    font-family: macondo;
+    font-size: 150px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ebebeb;
+
+
+}
+
+
+
+header{
+    color: white;
+    justify-content: center;
+    font-family: unset;
+    text-align: center;
+    background-image: url("kuvia/header-tausta.jpg");
+    background-size: 50%;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    display: flex;
+
+
+
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    min-height: 2px;
+    background: black;
+    flex-direction: row;
+    gap: 200px;
+    height: 54px;
+
+
+
+
+}
+
+
+a{
+position: relative;
+background: black;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 1.5em;
+letter-spacing: 0.1em;
+font-weight: 400;
+padding: 10px 30px;
+transition: 0.5s;
+border-style: solid;
+border-radius: 5px;
+cursor: pointer;
+
+
+}
+a:hover{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+
+}
+
+
+
+.liekki {
+
+    background: url(kuvia/nuotio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+
+
+}
+
+.liekki-txt {
+    color: white; 
+    font-size: 18px; 
+    max-width: 50%;
+    margin: 2%;
+    z-index: 1;
+    position: absolute;
+
+
+}
+
+
+
+
+
+.väli{
+    background: black;
+    width: 100%;
+    height: 50px;
+    border-style: outset;
+    border-width: 5px;
+
+
+}
+
+.väli p{
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: macondo;
+
+}
+.vika{
+    width: 100%;
+    height: 150px;
+    background: black;
+    color: aliceblue;
+    text-align: center;
+}
+.vika h1{
+    font-size: 40px;
+}
+
+.vika p{
+    font-size: 30px;
+}
+
+
+
+footer{
+    color: black;
+    background: rgb(53, 3, 3);
+    height: 50px;
+    justify-content: center;
+    display: flex;
+
+}
+
+button {
+
+position: relative;
+background: black;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 1.5em;
+letter-spacing: 0.1em;
+font-weight: 400;
+padding: 10px 30px;
+transition: 0.5s;
+border-style: solid;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500;800&family=Macondo&display=swap');
+
+main{
+    
+    background-image: url(../projekti-bootstrap/bootstrap-kuvia/header-tausta.jpg);
+
+
+}
+
+body{
+    background-color: black;
+}
+
+.display-3{
+    color: white;
+
+}
+
+ p{
+    color: white;
+
+}
+h1{
+    font-family: macondo;
+}
+h2{
+    font-family: macondo;
+}
+
+
+
+h2.navbar-brand {
+    color: white;
+}
+
+h2.navbar-brand:hover {
+    color: white;
+}
+
+a.nav-link.active{
+    color: white;
+}
+a.nav-link.active:hover{
+    color: red;
+}
+
+a.nav-link{
+    color: white;
+}
+a.nav-link:hover{
+    color: red;
+}
+
+
+[class*="col"]
+{
+padding: 1rem;
+background-color: #330000;
+border: 2px solid #fff;
+color: #fff;
+text-align: center;
+}
+.col-md-4{
+padding-bottom: 150px;
+
+}
+aside{
+    background-color:black;
+}
