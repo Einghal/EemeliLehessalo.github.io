@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
 	background:red;
 	
@@ -27,4 +28,35 @@ aside{
 	text-align: center;
 	
 	
+=======
+header{
+	background:red;
+	
+}
+h2{
+	background:black;
+	
+}
+article{
+	display:flex;
+	flex-direction: row;
+	gap: 200px;
+	justify-content: center;
+	background: #5CE5CA;
+	
+}
+[class*="col"]
+{
+padding: 1rem;
+background-color: #33b5e5;
+border: 2px solid #fff;
+color: #fff;
+text-align: center;
+}
+aside{
+	
+	text-align: center;
+	
+	
+>>>>>>> 82a8e55b9eb35f602b4ca858c5c512770721a3d4
 }
