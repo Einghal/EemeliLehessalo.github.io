@@ -1,0 +1,22 @@
+body {
+background-color: #00b386;
+}
+body {
+	margin:auto; max-width: 1200px;
+}
+body {
+	border-style:groove; border-color: purple;
+}
+
+h1  {text-align: center;3
+}
+
+img { width: 400px; max-width: 100%}
+
+div {background-color: #b3ffb3;}
+p	{font-family: arial; }
+.fancy {color:red;}
+
+#eka-laatikko {background-color: #b3ffb3;}
+
+p.solid {border-style: solid;}
